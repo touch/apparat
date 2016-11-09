@@ -274,7 +274,7 @@
     <module>apparat-maven-plugin</module>
     <module>apparat-playerglobal</module>
     <module>apparat-taas</module>
-    <module>apparat-test-harness</module>
+    <!-- <module>apparat-test-harness</module> -->
   </modules>
 
   <repositories>
