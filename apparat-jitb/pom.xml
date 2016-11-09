@@ -55,7 +55,7 @@
                 </artifactItem>
                 <artifactItem>
                   <groupId>org.lwjgl</groupId>
-                  <artifactId>lwjgl-native</artifactId>
+                  <artifactId>lwjgl-native-platform</artifactId>
                   <version>${lwjgl.version}</version>
                   <type>jar</type>
                   <outputDirectory>${project.build.directory}/libs/natives</outputDirectory>
