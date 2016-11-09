@@ -279,6 +279,16 @@
 
   <repositories>
     <repository>
+      <id>clojars</id>
+      <url>  https://clojars.org/repo</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
+    </repository>
+    <repository>
       <id>scala-releases</id>
       <url>http://repo.typesafe.com/typesafe/scala-tools-releases/</url>
       <releases>
