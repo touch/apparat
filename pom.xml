@@ -289,8 +289,16 @@
       </snapshots>
     </repository>
     <repository>
-      <id>flex-sdk</id>
-      <url>http://repository.sonatype.org/content/groups/flexgroup/</url>
+        <snapshots>
+            <enabled>false</enabled>
+        </snapshots>
+        <id>bintray</id>
+        <name>bintray</name>
+        <url>http://jcenter.bintray.com</url>
+    </repository>
+    <repository>
+      <id>central</id>
+      <url>http://central.maven.org/maven2/</url>
       <releases>
         <enabled>true</enabled>
       </releases>
@@ -299,9 +307,14 @@
       </snapshots>
     </repository>
     <repository>
-      <id>lwjgl</id>
-      <name>lwjgl</name>
-      <url>http://adterrasperaspera.com/lwjgl</url>
+      <id>flex-sdk</id>
+      <url>https://repository.sonatype.org/content/groups/flexgroup/</url>
+      <releases>
+        <enabled>true</enabled>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+      </snapshots>
     </repository>
   </repositories>
 
@@ -318,7 +331,7 @@
     </pluginRepository>
     <pluginRepository>
       <id>flex-sdk</id>
-      <url>http://repository.sonatype.org/content/groups/flexgroup/</url>
+      <url>https://repository.sonatype.org/content/groups/flexgroup/</url>
       <releases>
         <enabled>true</enabled>
       </releases>
